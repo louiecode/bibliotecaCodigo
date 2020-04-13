@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.about-project {
+    align-items: center;
+    background-position: right bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFFBFC;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #FB9495;
+    color: white;
+    padding: 4px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 3;       
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+nav {
+    background-color: white;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.nav-bottom h1 {
+    color: #FB9495;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
